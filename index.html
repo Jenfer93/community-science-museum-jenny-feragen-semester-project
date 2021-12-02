@@ -5,29 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Community Science Museum, giving families the chance to be real scientists and to explore together">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8674573c99.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Community Science Museum</title>
 </head>
 <body>
     <header>
-        <nav>
-            <input type="checkbox" name="hamburger-menu" id="hamburger-menu">
-            <label class="checkbox" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-            <ul>
-                <li>Home</li>
-                <li>Explore</li>
-                <li>Exhibitions</li>
-                <li>Special Events</li>
-                <li>Get Involved</li>
-                <li>Visit Us</li>
+        <nav class="nav-bar">
+            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
+            <ul class="menu">
+                <li><a class="cta-menu" href="">Home</a></li>
+                <li><a class="cta-menu" href="">Explore</a></li>
+                <li><a class="cta-menu" href="">Exhibitions</a></li>
+                <li><a class="cta-menu" href="">Special Events</a></li>
+                <li><a class="cta-menu" href="">Get Involved</a></li>
+                <li><a class="cta-menu" href="">Visit Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-
+        <section class="intro-image">
+            <img src="/images/logo-dark2.png" alt="Community Science Museum">
+            <p class="intro-image-p1">Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
+            <p class="intro-image-p2">Over the course of human history, science has developed from our early understanding of fire, wind, water, 
+            and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
+            <p>“Explore together”</p>
+        </section> 
+        <section class="explore">
+            <h1>Explore!</h1>
+            <a class="cta" href="explore.html">For kids!</a>
+            <a class="cta" href="explore.html">For teachers</a>
+            <a class="cta" href="explore.html">For researchers</a>
+        </section>
+        <section>
+            <h2>Exhibition Spaces</h2>
+            <a class="cta" href="exhibition.html">Explore more!</a>
+            <p>Check out all we have to offer, and click bellow to check out our special events!</p>
+            <a class="cta" href="special.html">Specials</a>
+        </section>
     </main>
     <footer>
-
+        <h3>"Explore together"</h3>
+        <div>
+            <p>Monday: Closed</p>
+            <p>Tuesday - Thursday: 10:00 – 16:00</p>
+            <p>Friday: 10:00 – 19:00</p>
+            <p>Saturday: 9:00 – 16:00</p>
+            <p>Sunday: 9:00 – 13:00</p>
+        </div>    
+        <div>
+            <p>Contact us!</p>
+            <p>Phone: +47 123 45 678</p>
+            <p>Email: csm@gmail.com</p>
+        </div>
     </footer>
 </body>
 </html>
