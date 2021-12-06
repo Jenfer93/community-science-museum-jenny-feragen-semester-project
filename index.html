@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8674573c99.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/index.css">
     <title>Community Science Museum</title>
 </head>
 <body>
@@ -18,46 +19,51 @@
             <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
             <input type="checkbox" id="hamburger-menu">
             <ul class="menu">
-                <li><a class="cta-menu" href="">Home</a></li>
-                <li><a class="cta-menu" href="">Explore</a></li>
-                <li><a class="cta-menu" href="">Exhibitions</a></li>
-                <li><a class="cta-menu" href="">Special Events</a></li>
-                <li><a class="cta-menu" href="">Get Involved</a></li>
-                <li><a class="cta-menu" href="">Visit Us</a></li>
+                <li><a class="cta-menu" href="index.html">Home</a></li>
+                <li><a class="cta-menu" href="explore.html">Explore</a></li>
+                <li><a class="cta-menu" href="exhibition.html">Exhibitions</a></li>
+                <li><a class="cta-menu" href="special.html">Special Events</a></li>
+                <li><a class="cta-menu" href="involved.html">Get Involved</a></li>
+                <li><a class="cta-menu" href="visit.html">Visit Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="intro-image">
             <img src="/images/logo-dark2.png" alt="Community Science Museum">
-            <p class="intro-image-p1">Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
-            <p class="intro-image-p2">Over the course of human history, science has developed from our early understanding of fire, wind, water, 
-            and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
-            <p>“Explore together”</p>
+            <div class="intro-text">
+                <p class="intro-image-p1">Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
+                <p class="intro-image-p2">Over the course of human history, science has developed from our early understanding of fire, wind, water, 
+                and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
+                <p>“Explore together”</p>
+            </div>
         </section> 
         <section class="explore">
             <h1>Explore!</h1>
-            <a class="cta" href="explore.html">For kids!</a>
-            <a class="cta" href="explore.html">For teachers</a>
-            <a class="cta" href="explore.html">For researchers</a>
+            <div class="explore-card">
+                <div class="for-kids"><a class="cta" href="explore.html">For kids!</a></div>
+                <div class="for-teachers"><a class="cta" href="explore.html">For teachers</a></div>
+                <div class="for-researchers"><a class="cta" href="explore.html">For researchers</a></div>
+            </div>
         </section>
-        <section>
+        <section class="index-exhibition">
             <h2>Exhibition Spaces</h2>
+            <img src="/images/exhibition-1863344_1920.jpg" alt="exhibition space">
             <a class="cta" href="exhibition.html">Explore more!</a>
             <p>Check out all we have to offer, and click bellow to check out our special events!</p>
             <a class="cta" href="special.html">Specials</a>
         </section>
     </main>
     <footer>
-        <h3>"Explore together"</h3>
-        <div>
+        <h3>"Explore together"</h3> 
+        <div class="footer-hours">
             <p>Monday: Closed</p>
             <p>Tuesday - Thursday: 10:00 – 16:00</p>
             <p>Friday: 10:00 – 19:00</p>
             <p>Saturday: 9:00 – 16:00</p>
             <p>Sunday: 9:00 – 13:00</p>
-        </div>    
-        <div>
+        </div> 
+        <div class="footer-contact">
             <p>Contact us!</p>
             <p>Phone: +47 123 45 678</p>
             <p>Email: csm@gmail.com</p>

@@ -1,0 +1,92 @@
+main {
+  width: 100%;
+  margin: 0;
+  margin-top: 100px;
+}
+
+.intro-image img {
+  max-width: 250px;
+  margin: 50px 50px 10px 50px;
+}
+
+.intro-image {
+  background-image: url(/images/pexels-joshua-navratil-5300362.jpg);
+  background-repeat: none;
+  background-size: cover;
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.intro-text p {
+  color: var(--white);
+  max-width: 500px;
+}
+
+.intro-text {
+  margin: 0px 30px;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+h2,
+p {
+  margin: 10px 30px;
+}
+
+.explore {
+  background-color: var(--grey-blue);
+  width: 100%;
+  min-height: 300px;
+  text-align: center;
+}
+
+.explore-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 150px;
+}
+
+.for-kids {
+  background-image: url(/images/chemistry-gc12fa11f9_1280.jpg);
+}
+
+.for-teachers {
+  background-image: url(/images/scientific-2040795_1280.jpg);
+}
+
+.for-researchers {
+  background-image: url(/images/people-219985_1280.jpg);
+}
+
+.for-kids,
+.for-teachers,
+.for-researchers {
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 30px auto;
+}
+
+.index-exhibition {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+.index-exhibition img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.index-exhibition .cta {
+  margin: 20px;
+}
