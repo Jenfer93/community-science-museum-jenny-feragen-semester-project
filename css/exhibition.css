@@ -1,0 +1,49 @@
+main {
+  margin-top: 100px;
+}
+
+.exhibition-intro {
+  background-image: url(/images/pexels-joshua-navratil-5300362.jpg);
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+}
+
+.exhibition-intro p {
+  max-width: 500px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.exhibition-container {
+  margin: 10px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.exhibition-card {
+  background-color: var(--light-blue);
+  color: var(--black);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0px;
+  max-width: 300px;
+}
+
+.exhibition-card h2 {
+  text-align: center;
+}
+
+.visit-cta {
+  margin: 10px 30px;
+}
