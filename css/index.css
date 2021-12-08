@@ -1,20 +1,9 @@
-main {
-  width: 100%;
-  margin: 0;
-  margin-top: 100px;
-}
-
-.intro-image img {
-  max-width: 300px;
+.index-intro img {
   margin: 50px 50px 10px 50px;
 }
 
-.intro-image {
-  background-image: url(/images/pexels-joshua-navratil-5300362.jpg);
-  background-repeat: none;
-  background-size: cover;
+.index-intro {
   max-width: 100%;
-  height: 500px;
   display: flex;
   align-content: center;
   justify-content: space-evenly;
@@ -24,6 +13,9 @@ main {
 .intro-text p {
   color: var(--white);
   max-width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .intro-text {
@@ -82,8 +74,11 @@ p {
   max-width: 300px;
 }
 
+.index-exhibition p {
+  text-align: left;
+}
+
 .index-exhibition img {
-  width: 100%;
   border-radius: 10px;
 }
 

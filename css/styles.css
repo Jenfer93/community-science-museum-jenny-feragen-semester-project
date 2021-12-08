@@ -19,9 +19,20 @@ body {
   grid-template-rows: auto auto auto;
 }
 
+main {
+  margin-top: 80px;
+}
+
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   font-size: 3em;
+}
+
+h2,
+h3 {
+  font-family: "Poppins", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
 }
 
 .hamburger-label {
@@ -71,6 +82,17 @@ nav {
   width: 100%;
 }
 
+.index-intro,
+.explore-intro,
+.exhibition-intro,
+.involved-intro,
+.special-intro,
+.visit-intro {
+  background-image: url(/images/pexels-joshua-navratil-5300362.jpg);
+  background-size: cover;
+  height: 600px;
+}
+
 .cta {
   display: inline-block;
   border: #6889a6 solid 3px;
@@ -80,6 +102,14 @@ nav {
   text-decoration: none;
   font-weight: bold;
   background-color: var(--dark-blue);
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  max-width: 300px;
 }
 
 footer {

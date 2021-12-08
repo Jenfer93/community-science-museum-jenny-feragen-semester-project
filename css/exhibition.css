@@ -1,11 +1,12 @@
 main {
-  margin-top: 100px;
+  text-align: center;
+}
+
+main p {
+  text-align: left;
 }
 
 .exhibition-intro {
-  background-image: url(/images/pexels-joshua-navratil-5300362.jpg);
-  background-size: cover;
-  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -16,10 +17,9 @@ main {
 
 .exhibition-intro p {
   max-width: 500px;
-}
-
-img {
-  max-width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .exhibition-container {
@@ -40,10 +40,6 @@ img {
   max-width: 300px;
 }
 
-.exhibition-card h2 {
-  text-align: center;
-}
-
 .visit-cta {
-  margin: 10px 30px;
+  margin: 10px auto;
 }
