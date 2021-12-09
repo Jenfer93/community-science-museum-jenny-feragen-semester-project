@@ -7,6 +7,10 @@ main {
   padding-top: 300px;
 }
 
+h1 {
+  max-width: 100%;
+}
+
 .special-container {
   display: flex;
   flex-wrap: wrap;
@@ -45,4 +49,10 @@ main {
 .special-3 {
   background-size: cover;
   height: 500px;
+}
+
+.info-special {
+  margin: 150px auto 0px auto;
+  max-width: 500px;
+  padding: 20px;
 }

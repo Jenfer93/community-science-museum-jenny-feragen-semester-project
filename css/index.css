@@ -1,5 +1,5 @@
-.index-intro img {
-  margin: 50px 50px 10px 50px;
+.logo {
+  max-height: 150px;
 }
 
 .index-intro {
@@ -42,6 +42,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
   min-height: 150px;
 }
 
@@ -66,6 +67,10 @@ p {
   background-size: cover;
   border-radius: 20px;
   margin: 30px auto;
+}
+
+.cta {
+  margin-top: 150px;
 }
 
 .index-exhibition {
