@@ -47,6 +47,10 @@
     text-decoration: none;
   }
 
+  .special-container {
+    margin: 20px;
+  }
+
   footer {
     flex-direction: column;
     padding: 20px 0px;
