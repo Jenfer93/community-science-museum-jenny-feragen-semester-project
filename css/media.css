@@ -1,5 +1,6 @@
 @media (min-width: 900px) {
-  .hamburger-label {
+  .hamburger-label,
+  .menu-title {
     display: none;
   }
 
@@ -39,6 +40,10 @@
     background-color: var(--light-blue);
     color: var(--dark-blue);
   }
+
+  footer {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -47,13 +52,23 @@
     text-decoration: none;
   }
 
+  .menu-title {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+  }
+
   .special-container {
     margin: 20px;
   }
 
+  .visit-container {
+    margin: 30px 50px;
+  }
+
   footer {
     flex-direction: column;
-    padding: 20px 0px;
+    padding: 30px 0px;
   }
 
   footer div {
@@ -62,7 +77,7 @@
 
   footer h3 {
     order: 1;
-    margin: 20px;
+    margin-left: 30px;
   }
 
   .footer-hours {

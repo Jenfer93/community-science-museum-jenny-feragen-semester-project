@@ -80,6 +80,11 @@ nav {
   width: 100%;
 }
 
+.menu-title {
+  margin: 10px 30px 20px 30px;
+  font-size: 1.2em;
+}
+
 .index-intro,
 .explore-intro,
 .exhibition-intro,

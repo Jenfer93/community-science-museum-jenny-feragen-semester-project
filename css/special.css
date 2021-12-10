@@ -4,7 +4,7 @@ main {
 
 .special-intro {
   text-align: center;
-  padding-top: 300px;
+  padding-top: 250px;
 }
 
 h1 {
@@ -13,10 +13,9 @@ h1 {
 
 .special-container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  justify-content: space-between;
-  margin: 20px 200px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .special-container div {
@@ -28,20 +27,20 @@ h1 {
 
 .special-container section {
   max-width: 400px;
-  margin-bottom: 50px;
 }
 
 .special-1 {
-  background-image: url(/images//andrew-ruiz-348421.jpg);
+  background-image: url(/images/astronaut.jpg);
   margin-bottom: 80px;
 }
 
 .special-2 {
-  background-image: url(/images/night-at-the-museum.jpg);
+  background-image: url(/images/special-event-night-at-museum.jpg);
+  margin-bottom: 40px;
 }
 
 .special-3 {
-  background-image: url(/images/scientific-2040795_1280.jpg);
+  background-image: url(/images/for-researchers.jpg);
 }
 
 .special-1,
@@ -55,4 +54,5 @@ h1 {
   margin: 150px auto 0px auto;
   max-width: 500px;
   padding: 20px;
+  text-align: center;
 }

@@ -3,8 +3,13 @@ main {
 }
 
 h1 {
-  padding-top: 300px;
+  padding-top: 250px;
   margin-top: 0px;
+}
+
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
 }
 
 .explore-for-kids,
