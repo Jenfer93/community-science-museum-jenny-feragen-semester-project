@@ -13,6 +13,7 @@ main p {
   flex-wrap: wrap;
   align-items: center;
   padding: 50px;
+  height: 700px;
 }
 
 .exhibition-intro p {
