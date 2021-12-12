@@ -25,18 +25,15 @@
     text-decoration: none;
     font-weight: bold;
     background-color: var(--dark-blue);
+    transition: background-color 1s;
   }
 
-  .cta-menu {
-    color: var(--light-blue);
-  }
-
-  .active {
+  .cta-menu:hover {
     background-color: var(--light-blue);
     color: var(--dark-blue);
   }
 
-  .cta-menu:hover {
+  .active {
     background-color: var(--light-blue);
     color: var(--dark-blue);
   }
