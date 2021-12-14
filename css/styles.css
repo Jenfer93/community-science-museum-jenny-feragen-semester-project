@@ -27,6 +27,7 @@ h1 {
   font-family: "Poppins", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
   font-size: 3em;
+  text-shadow: 2px 2px var(--grey-blue);
 }
 
 h2,
@@ -121,7 +122,6 @@ footer {
   display: flex;
   background-color: var(--light-blue);
   color: var(--black);
-  font-weight: bold;
   justify-content: space-evenly;
   line-height: 1em;
   margin-top: 50px;
@@ -139,6 +139,23 @@ footer h3 {
 
 .footer-contact {
   order: 3;
+}
+
+.opening-hours,
+.contact-us {
+  font-weight: bold;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  color: var(--black);
+  display: block;
+  margin: 5px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
 }
 
 footer div {
