@@ -46,31 +46,18 @@ p {
   min-height: 150px;
 }
 
-.for-kids {
-  background-image: url(/images/for-kids.jpg);
-}
-
-.for-teachers {
-  background-image: url(/images/for-teachers-index.jpg);
-}
-
-.for-researchers {
-  background-image: url(/images/for-researchers-person.jpg);
-}
-
-.for-kids,
-.for-teachers,
-.for-researchers {
-  height: 200px;
-  width: 200px;
-  background-position: center;
-  background-size: cover;
+.card {
+  width: 300px;
+  background-color: var(--dark-blue);
   border-radius: 20px;
   margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
 }
 
-.cta {
-  margin-top: 150px;
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .index-exhibition {
