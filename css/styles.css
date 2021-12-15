@@ -14,9 +14,14 @@ body {
     sans-serif;
   font-size: 1em;
   color: var(--white);
-  margin: 0px;
+  margin: 0px auto;
   display: grid;
   grid-template-rows: auto auto auto;
+}
+
+.content-container {
+  height: 100%;
+  margin: 0 auto;
 }
 
 main {
@@ -71,7 +76,6 @@ h3 {
 }
 
 .logo-menu img {
-  display: block;
   max-width: 50px;
   float: right;
   margin-right: 30px;
