@@ -12,6 +12,10 @@
   padding: 10px;
 }
 
+.involved-intro a {
+  color: var(--white);
+}
+
 .involved-intro div {
   padding: 10px 30px;
 }
@@ -26,4 +30,9 @@
 
 .involved-container div {
   max-width: 400px;
+}
+
+.flex-item1 a {
+  color: var(--white);
+  font-weight: bold;
 }

@@ -18,7 +18,7 @@
 
 .visit-container div {
   max-width: 200px;
-  margin: 40px;
+  margin: 20px 40px;
 }
 
 .visit-contact {
@@ -26,15 +26,7 @@
 }
 
 .visit-contact a {
-  text-decoration: none;
   color: var(--white);
-  display: block;
-  margin: 5px 0px 0px 0px;
-  cursor: pointer;
-}
-
-.visit-contact a:hover {
-  text-decoration: underline;
 }
 
 .visit-hours p {
