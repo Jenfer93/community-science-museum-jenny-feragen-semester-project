@@ -17,6 +17,10 @@ It's designed to interessert the younger audience and to inform both the younger
 - [Visualstudio](https://code.visualstudio.com/)
 - [Netlify.com](https://www.netlify.com/)
 
+## Contribution 
+
+If you would like to contribute to my project - just make your changes in my code and push them with a comment on the changes you've made and your name! 
+
 ## Contact
 
 This is where you can find my nonprivate social media:
