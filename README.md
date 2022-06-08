@@ -7,7 +7,7 @@ A website made to inform and inspire the young minds.
 
 ## Description
 
-This website is created without any JS. It's focus is on the design and how user friendly and user minded it is. 
+This website is created on just HTML and CSS. It's focus is on the design and how user friendly and user minded it is. 
 It's designed to interessert the younger audience and to inform both the younger and older viewers. 
 
 - Informal website
@@ -19,11 +19,11 @@ It's designed to interessert the younger audience and to inform both the younger
 
 ## Contribution 
 
-If you would like to contribute to my project - just make your changes in my code and push them with a comment on the changes you've made and your name! 
+If you would like to contribute to my project - just make a pull request and push your changes! 
 
 ## Contact
 
-This is where you can find my nonprivate social media:
+This is where you can find my social media:
 
 
 [My LinkedIn page](https://www.linkedin.com/in/jenny-marie-feragen-2a9a3a108/)
